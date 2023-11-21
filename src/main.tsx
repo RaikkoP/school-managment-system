@@ -8,7 +8,7 @@ import FrontPage from './pages/FrontPage';
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <div className='bg-image'><FrontPage/></div>
+    element: <FrontPage/>
   },
   {
     path: "/login",

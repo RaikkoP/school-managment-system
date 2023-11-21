@@ -4,7 +4,7 @@ interface buttonProps {
 
 const Button = ({children}:buttonProps) => {
     return(
-        <button className="text-xl p-8 mr-6 mb-12">
+        <button className="sm:text-md lg:text-xl text-sm lg:p-7 p-6 lg:mr-6 mr-4 lg:mb-12 mb-8">
             {children}
         </button>
     )
