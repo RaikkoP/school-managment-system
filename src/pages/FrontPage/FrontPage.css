@@ -1,6 +1,8 @@
-:root {
+#background-main {
     background: url('../src/assets/picture_background.jpg');
     background-position: center;
     background-repeat: none;
     background-size: fill;
+    width: 100vw;
+    height: 100vh;
 }
